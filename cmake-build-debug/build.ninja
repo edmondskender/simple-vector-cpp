@@ -49,17 +49,17 @@ cmake_ninja_workdir = /home/edmond/ki/5/pg2/exercises/e_06/cmake-build-debug/
 
 build cmake_object_order_depends_target_e_06: phony || .
 
-build CMakeFiles/e_06.dir/simple_vector/main.cpp.o: CXX_COMPILER__e_06_unscanned_Debug /home/edmond/ki/5/pg2/exercises/e_06/simple_vector/main.cpp || cmake_object_order_depends_target_e_06
-  DEP_FILE = CMakeFiles/e_06.dir/simple_vector/main.cpp.o.d
+build CMakeFiles/e_06.dir/main.cpp.o: CXX_COMPILER__e_06_unscanned_Debug /home/edmond/ki/5/pg2/exercises/e_06/main.cpp || cmake_object_order_depends_target_e_06
+  DEP_FILE = CMakeFiles/e_06.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/e_06.dir
-  OBJECT_FILE_DIR = CMakeFiles/e_06.dir/simple_vector
+  OBJECT_FILE_DIR = CMakeFiles/e_06.dir
 
-build CMakeFiles/e_06.dir/simple_vector/my_vector.cpp.o: CXX_COMPILER__e_06_unscanned_Debug /home/edmond/ki/5/pg2/exercises/e_06/simple_vector/my_vector.cpp || cmake_object_order_depends_target_e_06
-  DEP_FILE = CMakeFiles/e_06.dir/simple_vector/my_vector.cpp.o.d
+build CMakeFiles/e_06.dir/my_vector.cpp.o: CXX_COMPILER__e_06_unscanned_Debug /home/edmond/ki/5/pg2/exercises/e_06/my_vector.cpp || cmake_object_order_depends_target_e_06
+  DEP_FILE = CMakeFiles/e_06.dir/my_vector.cpp.o.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/e_06.dir
-  OBJECT_FILE_DIR = CMakeFiles/e_06.dir/simple_vector
+  OBJECT_FILE_DIR = CMakeFiles/e_06.dir
 
 
 # =============================================================================
@@ -69,7 +69,7 @@ build CMakeFiles/e_06.dir/simple_vector/my_vector.cpp.o: CXX_COMPILER__e_06_unsc
 #############################################
 # Link the executable e_06
 
-build e_06: CXX_EXECUTABLE_LINKER__e_06_Debug CMakeFiles/e_06.dir/simple_vector/main.cpp.o CMakeFiles/e_06.dir/simple_vector/my_vector.cpp.o
+build e_06: CXX_EXECUTABLE_LINKER__e_06_Debug CMakeFiles/e_06.dir/main.cpp.o CMakeFiles/e_06.dir/my_vector.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/e_06.dir
   POST_BUILD = :
