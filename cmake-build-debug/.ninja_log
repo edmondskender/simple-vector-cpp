@@ -1,0 +1,6 @@
+# ninja log v6
+252	289	1731241204736266979	e_06	c504b7ce3029b277
+1	249	1731241204485282678	CMakeFiles/e_06.dir/simple_vector/main.cpp.o	57c5c9f9a0f44de6
+1	252	1731241204485282678	CMakeFiles/e_06.dir/simple_vector/my_vector.cpp.o	9849b7aad235b23
+1	223	1730645719515180409	CMakeFiles/e_06.dir/simple_vector/dynamic_array.cpp.o	10245207e3f80805
+0	16	1731247182729383824	build.ninja	7b6b1d68432f58ec
