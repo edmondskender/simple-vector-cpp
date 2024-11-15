@@ -55,12 +55,6 @@ build CMakeFiles/e_06.dir/main.cpp.o: CXX_COMPILER__e_06_unscanned_Debug /home/e
   OBJECT_DIR = CMakeFiles/e_06.dir
   OBJECT_FILE_DIR = CMakeFiles/e_06.dir
 
-build CMakeFiles/e_06.dir/my_vector.cpp.o: CXX_COMPILER__e_06_unscanned_Debug /home/edmond/ki/5/pg2/exercises/e_06/my_vector.cpp || cmake_object_order_depends_target_e_06
-  DEP_FILE = CMakeFiles/e_06.dir/my_vector.cpp.o.d
-  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/e_06.dir
-  OBJECT_FILE_DIR = CMakeFiles/e_06.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target e_06
@@ -69,7 +63,7 @@ build CMakeFiles/e_06.dir/my_vector.cpp.o: CXX_COMPILER__e_06_unscanned_Debug /h
 #############################################
 # Link the executable e_06
 
-build e_06: CXX_EXECUTABLE_LINKER__e_06_Debug CMakeFiles/e_06.dir/main.cpp.o CMakeFiles/e_06.dir/my_vector.cpp.o
+build e_06: CXX_EXECUTABLE_LINKER__e_06_Debug CMakeFiles/e_06.dir/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/e_06.dir
   POST_BUILD = :
